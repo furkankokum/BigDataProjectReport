@@ -1,2 +1,2 @@
 # BigDataProjectReport
-It was done as a project in the big data course in my master's degree.
+This project analyzes internet censorship targeting communication apps like Signal, Facebook Messenger, WhatsApp and Telegram using OONI measurement data. We developed a Spark-based pipeline to process large-scale JSONL files, identifying failure patterns such as DNS errors and TCP resets that indicate blocking. Results are stored in Parquet format and visualized through Elasticsearch. Our findings reveal regional censorship trends and common blocking methods, contributing to a clearer understanding of global digital repression. 
